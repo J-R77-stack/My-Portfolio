@@ -1,4 +1,5 @@
 import { HERO_CONTENT } from "../constants";
+import profilePic from "../assets/kevinRushProfile.png";
 
 function Hero() {
   return (
@@ -12,7 +13,14 @@ function Hero() {
             <span className="bg-gradient-to-r from-blue-900 via-slate-300 to bg-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
               Junior React Developer
             </span>
-            <p>{HERO_CONTENT}</p>
+            <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
+              {HERO_CONTENT}
+            </p>
+          </div>
+        </div>
+        <div className="w-full lg:w-1/2 lg:p-8">
+          <div className="flex justify-center">
+            <img src={profilePic} alt="Johnny Ramsay" />
           </div>
         </div>
       </div>
