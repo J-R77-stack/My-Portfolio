@@ -21,12 +21,25 @@ function Projects() {
               className="w-full lg:w-1/4">
               <img
                 src={project.image}
-                width={150}
+                width={250}
                 height={150}
                 alt={project.title}
                 className="mb-6 rounded"
               />
+              <div className="mb-3">
+                <span className="mr-2 rounded bg-neutral-900 px-2 py-1 text-small font-medium text-yellow-600">
+                  <a target="blank" href={project.site}>
+                    Live site
+                  </a>
+                </span>
+                <span className="mr-2 rounded bg-neutral-900 px-2 py-1 text-small font-medium text-purple-100">
+                  <a target="blank" href={project.code}>
+                    Code
+                  </a>
+                </span>
+              </div>
             </motion.div>
+
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
