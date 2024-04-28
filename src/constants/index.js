@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate React developer with a love for creating robust and beautiful web applications. During 3 years of study , I have honed my skills in front-end technologies like React and also Django, as well as back-end technologies like Node.js, MySQL and PostgreSQL. My goal is to leverage the knowledge I've gained to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -58,12 +58,12 @@ export const PROJECTS = [
     code: "https://github.com/J-R77-stack/tip-calculator-React",
   },
   {
-    title: "Coming Soon",
+    title: "TODO List",
     image: project3,
-    description: "Coming Soon",
+    description: "Simple TODO List App build with react and Tailwind",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
-    site: "https://coffee-roasters-react-app.vercel.app/",
-    code: "https://github.com/J-R77-stack/My-Portfolio",
+    site: "https://shopping-to-get-list-react.vercel.app/",
+    code: "https://github.com/J-R77-stack/Shopping-to-get-list-react",
   },
   {
     title: "Coming Soon",
