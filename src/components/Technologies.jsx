@@ -86,7 +86,7 @@ function Technologies() {
           <BiLogoTailwindCss className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(2)}
+          variants={iconVariants(2.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4">
