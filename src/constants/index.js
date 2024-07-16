@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate React developer with a love for creating robust and beautiful web applications. During 3 years of study , I have honed my skills in front-end technologies like React and also Django, as well as back-end technologies like Node.js, MySQL and PostgreSQL. My goal is to leverage the knowledge I've gained to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -39,6 +40,16 @@ export const ABOUT_TEXT = `I am a dedicated and versatile React developer with a
 // ];
 
 export const PROJECTS = [
+  {
+    title: "Spotify Angular App",
+    image: project5,
+    description:
+      "Angular App connected to the Spotify Api to view the latest tracks and playlists found on the platform of my favorite Djs.",
+    technologies: ["HTML", "SCSS", "Angular", "Bootstrap"],
+    site: "https://dance-music-app-angular-app.vercel.app/",
+    code: "https://github.com/J-R77-stack/dance-Music-App-Angular-App",
+  },
+
   {
     title: "Coffee Roasters Website",
     image: project1,
