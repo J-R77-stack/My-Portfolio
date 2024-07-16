@@ -5,6 +5,7 @@ import { TbBrandJavascript } from "react-icons/tb";
 import { FaBootstrap } from "react-icons/fa";
 import { TbBrandDjango } from "react-icons/tb";
 import { BiLogoTailwindCss } from "react-icons/bi";
+import { SiAngular } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -83,6 +84,13 @@ function Technologies() {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4">
           <BiLogoTailwindCss className="text-7xl text-cyan-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiAngular className="text-7xl text-red-500" />
         </motion.div>
       </motion.div>
     </div>
