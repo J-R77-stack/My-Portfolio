@@ -1,8 +1,11 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+// import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
+import project7 from "../assets/projects/project-7.png";
+import project8 from "../assets/projects/project-8.png";
 
 export const HERO_CONTENT = `I am a passionate React developer with a love for creating robust and beautiful web applications. During 3 years of study , I have honed my skills in front-end technologies like React and also Django, as well as back-end technologies like Node.js, MySQL and PostgreSQL. My goal is to leverage the knowledge I've gained to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -60,13 +63,29 @@ export const PROJECTS = [
     code: "https://github.com/J-R77-stack/Coffee-roasters-react-app",
   },
   {
-    title: "Tip Calculator App ",
-    image: project2,
-    description:
-      "An application to calculate the correct tip and total cost of the bill per person.",
-    technologies: ["HTML", "CSS", "React"],
-    site: "https://tip-calculator-react-gilt.vercel.app/",
-    code: "https://github.com/J-R77-stack/tip-calculator-React",
+    title: "Planet Fact site ",
+    image: project6,
+    description: "A simple website showing facts about our planets",
+    technologies: ["HTML", "CSS", "Bootstrap"],
+    site: "https://j-r77-stack.github.io/planets-fact-site/neptune.html",
+    code: "https://github.com/J-R77-stack/planets-fact-site",
+  },
+  // {
+  //   title: "Tip Calculator App ",
+  //   image: project2,
+  //   description:
+  //     "An application to calculate the correct tip and total cost of the bill per person.",
+  //   technologies: ["HTML", "CSS", "React"],
+  //   site: "https://tip-calculator-react-gilt.vercel.app/",
+  //   code: "https://github.com/J-R77-stack/tip-calculator-React",
+  // },
+  {
+    title: "Slide Show App",
+    image: project7,
+    description: "Gallery slideshow of famous pictures",
+    technologies: ["HTML", "CSS", "Bootstrap"],
+    site: "https://j-r77-stack.github.io/Gallery-slideshow-site/index.html",
+    code: "https://github.com/J-R77-stack/Gallery-slideshow-site",
   },
   {
     title: "TODO List",
@@ -75,6 +94,23 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Tailwind"],
     site: "https://shopping-to-get-list-react.vercel.app/",
     code: "https://github.com/J-R77-stack/Shopping-to-get-list-react",
+  },
+  {
+    title: "E-commerce Online Store",
+    image: project8,
+    description:
+      "An E-commerce Online Store for sustainable and ethical products",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Django",
+      "Python",
+      "JavaScript",
+      "Bootstrap",
+      "Stripe",
+    ],
+    site: "https://sustainable-2022.onrender.com/",
+    code: "https://github.com/J-R77-stack/sustainable_ecommerce",
   },
   {
     title: "Coming Soon",
