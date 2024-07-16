@@ -113,12 +113,20 @@ export const PROJECTS = [
     code: "https://github.com/J-R77-stack/sustainable_ecommerce",
   },
   {
-    title: "Coming Soon",
+    title: "Angular Cousellor Booking app",
     image: project4,
     description: "Coming Soon",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
-    site: "https://coffee-roasters-react-app.vercel.app/",
-    code: "https://github.com/J-R77-stack/My-Portfolio",
+    technologies: ["HTML", "CSS"],
+    site: "",
+    code: "",
+  },
+  {
+    title: "Angular E-commerce ",
+    image: project4,
+    description: "Coming Soon",
+    technologies: ["HTML", "CSS"],
+    site: "",
+    code: "",
   },
 ];
 
