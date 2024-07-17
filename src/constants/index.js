@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 // import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.png";
-import project4 from "../assets/projects/project-4.jpg";
+import comingSoon from "../assets/projects/comingSoon.jpg";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
@@ -114,7 +114,7 @@ export const PROJECTS = [
   },
   {
     title: "Angular Cousellor Booking app",
-    image: project4,
+    image: comingSoon,
     description: "Coming Soon",
     technologies: ["HTML", "CSS"],
     site: "",
@@ -122,7 +122,7 @@ export const PROJECTS = [
   },
   {
     title: "Angular E-commerce ",
-    image: project4,
+    image: comingSoon,
     description: "Coming Soon",
     technologies: ["HTML", "CSS"],
     site: "",
