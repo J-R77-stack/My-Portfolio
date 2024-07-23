@@ -52,15 +52,22 @@ export const PROJECTS = [
     site: "https://dance-music-app-angular-app.vercel.app/",
     code: "https://github.com/J-R77-stack/dance-Music-App-Angular-App",
   },
-
   {
-    title: "Coffee Roasters Website",
-    image: project1,
+    title: "E-commerce Online Store",
+    image: project8,
     description:
-      "A fully functional multi-page coffee subscription website with features like product listing and shopping cart pop up modal",
-    technologies: ["HTML", "Tailwind", "React", "Node.js"],
-    site: "https://coffee-roasters-react-app.vercel.app/",
-    code: "https://github.com/J-R77-stack/Coffee-roasters-react-app",
+      "An E-commerce Online Store for sustainable and ethical products",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Django",
+      "Python",
+      "JavaScript",
+      "Bootstrap",
+      "Stripe",
+    ],
+    site: "https://sustainable-2022.onrender.com/",
+    code: "https://github.com/J-R77-stack/sustainable_ecommerce",
   },
   {
     title: "Planet Fact site ",
@@ -70,6 +77,16 @@ export const PROJECTS = [
     site: "https://j-r77-stack.github.io/planets-fact-site/neptune.html",
     code: "https://github.com/J-R77-stack/planets-fact-site",
   },
+  {
+    title: "Coffee Roasters Website",
+    image: project1,
+    description:
+      "A fully functional multi-page coffee subscription website with features like product listing and shopping cart pop up modal",
+    technologies: ["HTML", "Tailwind", "React", "Node.js"],
+    site: "https://coffee-roasters-react-app.vercel.app/",
+    code: "https://github.com/J-R77-stack/Coffee-roasters-react-app",
+  },
+
   // {
   //   title: "Tip Calculator App ",
   //   image: project2,
@@ -95,28 +112,12 @@ export const PROJECTS = [
     site: "https://shopping-to-get-list-react.vercel.app/",
     code: "https://github.com/J-R77-stack/Shopping-to-get-list-react",
   },
+
   {
-    title: "E-commerce Online Store",
-    image: project8,
-    description:
-      "An E-commerce Online Store for sustainable and ethical products",
-    technologies: [
-      "HTML",
-      "CSS",
-      "Django",
-      "Python",
-      "JavaScript",
-      "Bootstrap",
-      "Stripe",
-    ],
-    site: "https://sustainable-2022.onrender.com/",
-    code: "https://github.com/J-R77-stack/sustainable_ecommerce",
-  },
-  {
-    title: "Angular Cousellor Booking app",
+    title: "Angular Couselor Booking app",
     image: comingSoon,
     description: "Coming Soon",
-    technologies: ["HTML", "CSS"],
+    technologies: ["HTML", "CSS", "Angular"],
     site: "",
     code: "",
   },
@@ -124,7 +125,7 @@ export const PROJECTS = [
     title: "Angular E-commerce ",
     image: comingSoon,
     description: "Coming Soon",
-    technologies: ["HTML", "CSS"],
+    technologies: ["HTML", "CSS", "Angular"],
     site: "",
     code: "",
   },
