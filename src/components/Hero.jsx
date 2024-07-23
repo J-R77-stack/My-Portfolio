@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/images/JohnnyRamsayProfile1.jpg";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -47,6 +47,7 @@ function Hero() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePic}
+              className="rounded-2xl"
               alt="Johnny Ramsay"
             />
           </div>

@@ -1,7 +1,7 @@
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 import cv from "../assets/SoftwareEngineerCV.pdf";
-import JohnnyProfile2 from "../assets/JohnnyRamsayProfile2";
+import JohnnyProfile2 from "../assets/images/JohnnyRamsayProfile2.jpg";
 
 function About() {
   return (
